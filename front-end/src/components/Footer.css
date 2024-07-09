@@ -1,0 +1,97 @@
+/* Existing styles (adjust as needed) */
+
+.footer {
+  background: #F5F5DC;
+  height: 527px;
+  top: 2356px;
+  padding: 34px 32px 34px 32px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+ 
+ 
+}
+
+.footer-content {
+  max-width: 1280px; /* Limit maximum width for content */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap if necessary */
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align items to the top */
+}
+.logo {
+  margin-right: 20px;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+.links {
+  display: inline-block; /* Display links in a line */
+  text-align: center; /* Center links */
+  margin-bottom: 10px; /* Space between links and newsletter */
+}
+
+.links a {
+  text-decoration: underline;
+  color: black;
+  margin: 0 40px;
+}
+
+.newsletter {
+  text-align: center; /* Center content */
+  margin-top: 20px; /* Space above newsletter */
+}
+
+.newsletter p {
+  margin-bottom: 10px; /* Space between text and input */
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #8B4513;
+  color: #f1f1f1;
+}
+
+.footer-bottom {
+  color: black;
+  padding: 10px 0;
+  font-size: 13px; /* Adjust as needed on mobile */
+  font-weight: bold;
+  font-family: lato;
+  text-align: center; /* Center content */
+  /* Wrap text if necessary */
+
+  
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    text-align: left; /* Align links to the left on mobile */
+  }
+
+  .links a {
+    display: block; /* Display links in a block (list) on mobile */
+    margin: 5px 0; /* Add vertical margin between links */
+  }
+ 
+  .footer-content {
+    flex-direction: column; /* Stack elements vertically on mobile */
+  }
+
+  .newsletter {
+    /* Move newsletter styles within media query */
+    margin-top: 0; /* Remove top margin on mobile */
+  }
+  .footer-bottom {
+    font-size: 1rem; 
+    text-align: left;
+  }
+}

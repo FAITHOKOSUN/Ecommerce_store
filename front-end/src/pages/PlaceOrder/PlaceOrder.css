@@ -1,0 +1,72 @@
+.order-steps {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.step {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.step-line {
+  width: 50px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #EDC9AF;
+}
+
+.step-line.active {
+  background-color: #8b4513;
+}
+
+.step-label {
+  font-size: 15px;
+  color: #555;
+  font-weight: bold;
+}
+
+.place-order-container {
+  padding: 20px;
+}
+
+.cart-item-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cart-item-summary img {
+  width: 100px;
+  height: auto;
+}
+
+.order-summary {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.order-summary h2 {
+  margin-top: 0;
+}
+
+.shipping-billing {
+  margin-top: 20px;
+}
+
+.shipping-billing input, .shipping-billing select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.proceed-to-checkout {
+  background-color: #8b4513;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
