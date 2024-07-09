@@ -2,8 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Cart from './pages/Cart';
-import PlaceOrder from './pages/PlaceOrder/PlaceOrder'; // Ensure the correct import path
-import './GlobalStyles.css';
+import PlaceOrder from './pages/PlaceOrder'; 
+
 const App = () => {
   return (
     <Routes>

@@ -32,11 +32,16 @@ import local_fire_department from './local_fire_department.png'
 import local_mall from './local_mall.png'
 import local_shipping from './local_shipping.png'
 import office from './office.png'
-import PaymentCard from './PaymentCard.png'
+import PaymentCard1 from './PaymentCard.png'
+import PaymentCard2 from './PaymentCard (1).png'
 import Selectcats from './Selectcats.png'
 import settings from './settings.png'
 import shop from './shop.png'
-import socialicons from './social icons.png'
+import socialicons from './socialicons.png'
+import phoneicon from './phoneicon.png'
+import user from './user.png'
+import fav from './fav.png'
+
 
 export const assets = {
   arm1,
@@ -71,11 +76,15 @@ living,
 local_fire_department,
 local_mall,
 local_shipping,
+fav,
 office,
-PaymentCard,
+PaymentCard1,
 Selectcats,
 settings,
 shop,
 socialicons,
+user,
+phoneicon,
+PaymentCard2
 
 };

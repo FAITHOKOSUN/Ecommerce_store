@@ -40,12 +40,15 @@ const HomePage = () => {
     <div className="home-page">
       <Header />
       <MainContent />
-      <ProductSection title="SINGLE ARM CHAIRS 23 Items Sold!" products={products} />
-      <ProductSection title="SOFA SETS Top Picks!" products={product1} />
-      <ProductSection title="CENTRE TABLES New Arrivals" products={product2} />
+      <ProductSection title="SINGLE ARM CHAIRS" subtitle="23 Items Sold!" products={products} />
+      <ProductSection title="SOFA SETS" subtitle="Top Picks!" products={product1} />
+      <ProductSection title="CENTRE TABLES" subtitle="New Arrivals" products={product2} />
       <Footer />
     </div>
   );
-};
+}
 
 export default HomePage;
+
+
+
